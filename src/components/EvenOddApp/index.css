@@ -1,0 +1,54 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.outside-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  min-width: 500px;
+  border-radius: 16px;
+}
+
+.count-heading {
+  color: #0f172a;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.count-even-odd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #0f172a;
+  min-width: 130px;
+  min-height: 40px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0px 0px 10px 0px;
+}
